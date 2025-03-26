@@ -1,0 +1,102 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #49225b;
+    color: #e7dbef;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1, p{
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+h1{
+    margin-bottom: -0.5em;
+    font-size: 50px;
+}
+
+p{
+    font-size: large;
+}
+
+form{
+    width: 100%;
+    max-width: 50%;
+    background-size: 100%;
+    background-color: #e7dbef;
+    color: #000000;
+    margin: auto;
+    padding: 1.5em 1.5em 5em 1.5em;
+}
+
+@media (max-width: 800px) {
+    form {
+        max-width: 85%;
+    }
+  }
+
+label, input, select, textarea{
+    display: block;
+    color: black;
+    margin: 10px 0 25px 0;
+    font-size: 1.3rem;
+}
+
+#name, 
+#email, 
+#number, 
+#dropdown, 
+#submit, 
+textarea{
+    width: 100%;
+    margin: auto;
+    height: 6vh;
+    text-indent: 4px;
+}
+
+#name-label, 
+#email-label, 
+#number-label,
+#select-label,
+#user-recommend-label,
+#form-improve-label,
+#comment-label{
+    font-weight:bolder;
+}
+
+select{
+    cursor: pointer;
+}
+
+textarea{
+    height: 20vh;
+    margin-top: 1%;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    display: inline-block;
+    margin: 0 -80px 0 -90px;
+    cursor: pointer;
+    width:10em;
+    height:1em;
+}
+
+input[type="submit"]{
+    background-color: #4c1472;
+    color: #ffffff;
+}
+
+input[type="submit"]:hover{
+    background-color:#ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+
+input[type="submit"]:active{
+    background-color:#4c1472;
+    color: white;
+}
+
+
